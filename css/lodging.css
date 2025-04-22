@@ -17,10 +17,10 @@
 
 .card img {
   width: 100%;
-  height: auto; /* adapte la hauteur automatiquement */
-  object-fit: cover; /* garde un rendu propre */
-  border-radius: 10px 10px 0 0; /* si tu veux un petit style */
-  max-height: 200px; /* optionnel pour éviter qu'elle soit trop haute */
+  height: auto;
+  object-fit: cover; 
+  border-radius: 10px 10px 0 0;
+  max-height: 200px;
 }
 
 .card-title {
