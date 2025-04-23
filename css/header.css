@@ -166,7 +166,7 @@ header img {
   .nav-list {
     gap: 115px;
   }
-  
+
   .nav-item:nth-child(2) a::before {
     left: 40px;
   }
