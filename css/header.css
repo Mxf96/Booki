@@ -227,6 +227,10 @@ header img {
   .nav-item:nth-child(2) a::before {
     left: 2px;
   }
+
+  .nav-item:nth-child(1) a:hover::before {
+    width: 80vw;
+  }
 }
 
 @media (max-width: 350px) {
