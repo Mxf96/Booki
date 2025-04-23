@@ -101,7 +101,7 @@ header img {
     content: "";
     position: absolute;
     top: 38px;
-    left: 45px;
+    left: 50px;
     width: 0;
     height: 2px;
     background-color: var(--main-color);
@@ -152,12 +152,21 @@ header img {
   .nav-item:nth-child(2) a:hover::before {
     width: 48vw;
   }
+
+  .nav-item:nth-child(2) a::before {
+    left: 45px;
+  }
+
+  .nav-item:nth-child(2) a:hover::before {
+    width: 49vw;
+  }
 }
 
 @media (max-width: 500px) {
   .nav-list {
     gap: 115px;
   }
+  
   .nav-item:nth-child(2) a::before {
     left: 40px;
   }
@@ -168,8 +177,8 @@ header img {
 }
 
 @media (max-width: 475px) {
-  .nav-item:nth-child(2) a:hover::before {
-    width: 47vw;
+  .nav-item:nth-child(2) a::before {
+    left: 35px;
   }
 }
 
