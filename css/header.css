@@ -166,6 +166,10 @@ header img {
   .nav-list {
     gap: 202px;
   }
+
+  .nav-item:nth-child(1) a:hover::before {
+    width: 75vw;
+  }
 }
 
 @media (max-width: 525px) {
@@ -209,6 +213,10 @@ header img {
   .nav-item:nth-child(2) a::before {
     left: 8px;
   }
+
+  .nav-item:nth-child(1) a:hover::before {
+    width: 80vw;
+  }
 }
 
 @media (max-width: 375px) {
@@ -228,7 +236,7 @@ header img {
   }
 
   .nav-item:nth-child(1) a:hover::before {
-    width: 92vw;
+    width: 80vw;
   }
 
   .nav-item:nth-child(2) a::before {
