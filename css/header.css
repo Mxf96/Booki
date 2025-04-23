@@ -229,7 +229,7 @@ header img {
   }
 
   .nav-item:nth-child(1) a:hover::before {
-    width: 80vw;
+    width: 82vw;
   }
 }
 
