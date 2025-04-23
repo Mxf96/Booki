@@ -201,7 +201,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .hebergements-and-populaires {
     flex-direction: column;
   }
